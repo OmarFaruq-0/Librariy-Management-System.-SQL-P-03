@@ -144,7 +144,7 @@ SELECT Count(book_title) as Total book, Category  FROM books
 GROUP BY category;
 ```
 
-**Task-08: Find the total rental price based on category **		
+**Task-08: Find the total rental price based on category**		
 ```sql
 SELECT category, sum(rental_price), COUNT(*) FROM books as  B 
 join issue_status as  i_s
@@ -198,8 +198,8 @@ WHERE R.return_id is NULL;
 ## Advanced Query 
 **Task 13: Identify Members with Overdue Books**
 /*Write a query to identify members who have overdue books (assume a 30-day return period). 
-Display the member's_id, member's name, book title, issue date, and days overdue.
-*/
+Display the member's_id, member's name, book title, issue date, and days overdue.*/
+
 ```sql
 SELECT 
     ist.issued_member_id,
@@ -302,9 +302,9 @@ call add_return_records('RS138','IS135');
 ```
 
 **Task-15: Branch Performance Report**
-/* Create a query to generates performance report  for each brach showing the number of book issued, 
- the number of book returned and the total revenue generate from book rental
-*/
+/*Create a query to generates performance report  for each brach showing the number of book issued, 
+ the number of book returned and the total revenue generate from book rental.*/
+
 ```sql
 SELECT * FROM issue_status;
 SELECT * FROM return_status;
@@ -330,8 +330,8 @@ GROUP BY B.brench_id;
 
 **Task 16: CTAS: Create a Table of Active Members**
 /*Use the CREATE TABLE AS (CTAS) statement to create a new table 
-active_members containing members who have issued at least one book in the last 20 months.
-*/
+active_members containing members who have issued at least one book in the last 20 months.*/
+
 ```sql
 
 SELECT * FROM issue_status;
