@@ -30,6 +30,23 @@ Create a datababse for library management system. Tables are-
 
 
 
+```sql
+CREATE DATABASE Libery_DB;
+
+\c library_db;
+\dt
+
+CREATE TABLE books (
+                  isbn varchar(20),
+				  book_title varchar(75),
+				  category varchar(10),
+				  rental_price FLOAT,
+				  status  varchar(15),
+				  author VARCHAR(35),
+				  publisher VARCHAR(55)
+				  );
+```sql 
+
 
 
 
