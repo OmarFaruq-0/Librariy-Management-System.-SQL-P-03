@@ -1,2 +1,6 @@
-## Librariy-Management-System.-SQL-P-03##
-This project analyzes pizza sales data using MySQL and Excel to uncover key business performance metrics and visualize sales trends. The goal is to identify insights that help improve revenue, customer engagement, and operational efficiency.
+## Librariy-Management-System.-SQL-P-03
+**Project Name- Library Management System
+**Dificulty Level- Intermediate 
+
+## Objective
+**To showcase the usecase of SQL database management system to manage a library with efficiency 
