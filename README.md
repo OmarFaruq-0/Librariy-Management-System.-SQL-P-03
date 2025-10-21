@@ -25,11 +25,12 @@ Create a datababse for library management system. Tables are-
 
 4.employees
 
-5. branch
+5.branch
 
 6.return_status
 
 **Database Structure**
+
 <img width="1525" height="891" alt="Screenshot 2025-10-21 183641" src="https://github.com/user-attachments/assets/e81e8f05-ae61-4add-b4d4-93df829c8af6" />
 
 
@@ -99,5 +100,18 @@ VALUES
 );
 ```
 
+**Task-02: Update an existing member's address**
+```sql
+UPDATE members
+SET member_address = '125 Main St'
+WHERE member_id = 'C101';
+```
 
+**Task-03: Delete a table from issued_status table -- Objective: Delete the record with the issued_id ='IS107' from the issue_status table**
+```sql
+SELECT * FROM issue_status
+where issued_id = 'IS122';
 
+DELETE FROM issue_status
+where issued_id = 'IS122';
+```
