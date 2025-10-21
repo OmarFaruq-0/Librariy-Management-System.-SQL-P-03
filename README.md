@@ -1,6 +1,6 @@
 ## Librariy-Management-System.-SQL-P-03
-**Project Name**- Library Management System
-**Dificulty Level**- Intermediate
+**Project Name** - Library Management System
+**Dificulty Level** - Intermediate
 
 <img width="1600" height="1067" alt="image" src="https://github.com/user-attachments/assets/5cc086fc-4ea0-431f-a9a6-5fde2ef76e8d" />
 
