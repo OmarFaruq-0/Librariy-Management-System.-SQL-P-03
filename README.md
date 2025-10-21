@@ -128,9 +128,8 @@ SELECT COUNT(issued_id) as Total_books, issued_emp_id FROM issue_status
 GROUP BY issued_emp_id;
 ```
 
-**CATS			
-
- Task-06: Create Summary Table: Use CATS to generate new tables based on querry result - each book and total_issued_cnt**
+**CATS**			
+**Task-06: Create Summary Table: Use CATS to generate new tables based on querry result - each book and total_issued_cnt**
 ```sql
 CREATE TABLE book_count AS
 SELECT B.isbn,B.book_title, COUNT(i_s.issued_book_isbn) FROM books as  B 
@@ -200,7 +199,7 @@ WHERE R.return_id is NULL;
 **Task 13: Identify Members with Overdue Books
 /*Write a query to identify members who have overdue books (assume a 30-day return period). 
 Display the member's_id, member's name, book title, issue date, and days overdue.
-*?**
+*/**
 
 
 
