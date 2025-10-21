@@ -115,3 +115,21 @@ where issued_id = 'IS122';
 DELETE FROM issue_status
 where issued_id = 'IS122';
 ```
+
+**Task-04: Retrive all books issued by a specific employee -- Objective: Select all books issued by emp_id ='E101'**
+```sql
+SELECT * FROM issue_status
+where issued_emp_id = 'E101'
+```
+
+**Task-05: Count the all books by the issued_emp_id**
+```sql
+SELECT COUNT(issued_id) as Total_books, issued_emp_id FROM issue_status
+GROUP BY issued_emp_id;
+```
+
+
+
+
+
+
