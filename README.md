@@ -31,7 +31,7 @@ Create a datababse for library management system. Tables are-
 
 **Database Structure**
 
-<img width="1525" height="891" alt="Screenshot 2025-10-21 183641" src="https://github.com/user-attachments/assets/e81e8f05-ae61-4add-b4d4-93df829c8af6" />
+<img width="1204" height="814" alt="image" src="https://github.com/user-attachments/assets/aa4adf4d-6afd-417c-bbab-b9ba4e7ac31e" />
 
 
 
